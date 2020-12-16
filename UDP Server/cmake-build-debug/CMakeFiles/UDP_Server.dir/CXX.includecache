@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mark/CLionProjects/UDP Server/main.cpp
+sys/types.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+string.h
+-
+netdb.h
+-
+stdio.h
+-
+iostream
+-
+arpa/inet.h
+-
+string
+-
+map
+-
+sstream
+-
+fstream
+-
+memory
+-
+vector
+-
+cstring
+-
+chrono
+-
+thread
+-
+
